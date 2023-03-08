@@ -1,0 +1,150 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "hw1.ex3",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "ex4",
+            "request": "launch",
+            "mainClass": "hw1.ex4",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "TestClass",
+            "request": "launch",
+            "mainClass": "TestClass",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "ex1_2",
+            "request": "launch",
+            "mainClass": "hw2.ex1_2",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "ex1_1",
+            "request": "launch",
+            "mainClass": "hw2.ex1_1",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "name": "(gdb) Запуск канала",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "Введите имя программы, например: ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "<Полный путь к программе канала, например: plink.exe>",
+                "pipeArgs": [],
+                "pipeCwd": ""
+            },
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Включить автоматическое форматирование для gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Задать для варианта приложения дизассемблирования значение Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "name": "(gdb) Запуск канала",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "Введите имя программы, например: ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "<Полный путь к программе канала, например: plink.exe>",
+                "pipeArgs": [],
+                "pipeCwd": ""
+            },
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Включить автоматическое форматирование для gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Задать для варианта приложения дизассемблирования значение Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "hw2.ex1",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "ex4",
+            "request": "launch",
+            "mainClass": "ex4",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "ex3",
+            "request": "launch",
+            "mainClass": "ex3",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "ex2",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "ex1",
+            "projectName": "homework_3aea0b1d"
+        }
+    ]
+}
