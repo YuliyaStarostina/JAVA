@@ -1,5 +1,6 @@
 package hw2;
 import java.io.*;
+import java.util.ArrayList;
 
 public class lib {
     public lib() {
@@ -44,5 +45,12 @@ public class lib {
     @Override
     public String toString() {
         return "lib []";
+    }
+
+    public static void PrintArray(ArrayList<Integer> array) {
+    }
+
+    public static ArrayList<Integer> FillRandomArray(int i) {
+        return null;
     }
 }

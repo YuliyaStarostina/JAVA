@@ -8,6 +8,27 @@
             "type": "java",
             "name": "ex3",
             "request": "launch",
+            "mainClass": "hw3.ex3",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "hw3.ex2",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "ex1",
+            "request": "launch",
+            "mainClass": "hw3.ex1",
+            "projectName": "homework_3aea0b1d"
+        },
+        {
+            "type": "java",
+            "name": "ex3",
+            "request": "launch",
             "mainClass": "hw1.ex3",
             "projectName": "homework_3aea0b1d"
         },
